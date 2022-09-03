@@ -14,13 +14,11 @@
 :root{
   --color-grey-100:#F6F6F6;
   --color-grey-500: #716C80;
+  --color-grey-800:#485582;
   --color-light:#fff;
   --color-primary:#F9B594;
 }
 
-body{
-  background-color: var(--color-grey-100);
-}
 
 
 

@@ -3,13 +3,14 @@ import styled from "styled-components"
 
 export const  NavStripe = styled.div`
 text-align: end;
-margin:.5rem 2rem;
+padding:.5rem 2rem;
+background-color: var( --color-grey-100);
 
 `
 
 export const Nav = styled.div`
 display:flex;
-height:10vh;
+height:12vh;
 background-color: var(--color-light);
 padding:.5rem 2rem;
 `

@@ -12,6 +12,7 @@ export const PageHead = styled.div`
 font-size: 3rem;
 padding:2rem 4rem;
 grid-area: head;
+background: var( --color-grey-100);
 
 `
 
@@ -25,7 +26,7 @@ padding: 2rem 4rem 10rem 4rem;
 export const AsideWrapper = styled.div`
 grid-area: side;
 background-color: var(--color-light);
-
+padding: 2rem 4rem 10rem 4rem;
 `
 
 export const ImageWrapper = styled.div`
@@ -38,7 +39,7 @@ export const DateLabel = styled.div`
 position: absolute;
 background-color: var(--color-light);
 top:3rem;
-left: 2rem;
+left: 1rem;
 padding: .5rem 1.2rem;
 border-radius: 10px;
 
