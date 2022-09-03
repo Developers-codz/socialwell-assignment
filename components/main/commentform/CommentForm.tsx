@@ -20,7 +20,7 @@ export const CommentForm = () => {
         </HorizontalInput>
         <CheckBoxInput type="checkbox" id="check" />
         <label htmlFor="check">Save my name, email, and website in this browser for the next time I comment.</label>
-        <StyledTextBox rows="4" cols="50" placeholder="Your Comment" />
+        <StyledTextBox placeholder="Your Comment" />
         <SubmitBtn>Submit</SubmitBtn>
       </form>
     </FormWrapper>

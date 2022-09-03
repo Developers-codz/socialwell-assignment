@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import React from "react"
 export const FormWrapper = styled.div`
 padding:0rem 4rem 10rem 4rem;
 `
@@ -43,19 +43,11 @@ cursor:pointer;
 export const CheckBoxInput =styled.input`
 margin:1rem .5rem 1rem 1rem;
 `
-
-export const StyledTextBox = styled.textarea`
-padding: 1rem;
-background-color: var( --color-primary-100);
-border:none;
-margin:1rem;
-font-size: 1.2rem;
-border-radius: 10px;
-&::placeholder{
-    color:var(--color-grey-500);
-    font-size:1.2rem;
+type textBoxType = {
+    row:string;
+    cols:string;
 }
-&:focus{
-    outline: none;
-}
+export const StyledTextBox  = styled(StyledInput )`
+width:80%;
+height:5rem;
 `
