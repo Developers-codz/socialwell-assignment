@@ -33,7 +33,7 @@ li{
 `
 export const ActiveLink = styled.li`
     color:black !important;
-    border-bottom:1px solid orange;
+    border-bottom:1px solid var(--color-primary);
     font-weight: 600;
 `
 

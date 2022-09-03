@@ -18,8 +18,8 @@ grid-area: head;
 export const BlogWrapper = styled.div`
 grid-area: main;
 background-color: var(--color-light);
-padding:0rem 4rem;
 width:65vw;
+padding: 2rem 4rem 10rem 4rem;
 `
 
 export const AsideWrapper = styled.div`
@@ -38,7 +38,7 @@ export const DateLabel = styled.div`
 position: absolute;
 background-color: var(--color-light);
 top:3rem;
-left: 3rem;
+left: 2rem;
 padding: .5rem 1.2rem;
 border-radius: 10px;
 
@@ -50,13 +50,22 @@ left: 43%;
 background-color: var(--color-grey-50);
 cursor:pointer;
 `
+
+
+type endTextProps = {
+    reaction?:boolean
+}
 export const EndTextWrapper = styled.div`
 color:var(--color-grey-500);
-font-size:12px;
+font-size:${(props:endTextProps) => (props.reaction ? "21px" :"12px;")};
 display:flex;
 justify-content: flex-end;
+align-items: center;
+height:2rem;
 & > div{
-    padding:0 1rem;
+padding:0 1rem;
+display:flex;
+align-items: center;
 }
 
 `

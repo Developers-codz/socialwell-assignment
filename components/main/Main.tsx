@@ -13,7 +13,7 @@ import {
 } from "./mainComponents";
 import Image from "next/image";
 import BlogImg from "../../assets/images/blogImg.png";
-import { PlayBtnIcon } from "../../assets";
+import { PlayBtnIcon,CommentIcon,LikeIcon } from "../../assets";
 import { Aside } from "./Aside/Aside";
 
 export const Main = () => {
@@ -92,6 +92,10 @@ export const Main = () => {
           laudantium nostrum perspiciatis amet? Tenetur veritatis, sit et labore
           aliquid aspernatur libero quibusdam.
         </BlogCatMain>
+        <EndTextWrapper reaction>
+        <div><CommentIcon /> Comment</div>
+        <div><LikeIcon /> Like</div>
+        </EndTextWrapper>
       </BlogWrapper>
       <Aside />
     </MainWrapper>
