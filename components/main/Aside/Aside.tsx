@@ -13,7 +13,7 @@ export const Aside = () => {
     </SearchIconWrapper>
     </InputWrapper>
     <SideHeader>Recent Posts</SideHeader>
-    {[1,2,3,4].map(i  => <ShortText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facere similique ea inventore voluptatibus </ShortText>)}
+    {[1,2,3,4].map((item,i ) => <ShortText key={i}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facere similique ea inventore voluptatibus </ShortText>)}
     <SideHeader>Categories</SideHeader>
     <ShortText>Lorem Ipsum dolar</ShortText>
     <ShortText>Lorem Ipsum</ShortText>
@@ -23,7 +23,7 @@ export const Aside = () => {
     <SideHeader>Tags</SideHeader>
     <TagWrapper>
 
-    {[1,2,3,4,5,6,7,8].map(i => <TagBtn>Lorem</TagBtn>)}
+    {[1,2,3,4,5,6,7,8].map((item,i) => <TagBtn key={i}>Lorem</TagBtn>)}
     </TagWrapper>
     <SideHeader>Recent Comments</SideHeader>
   </AsideWrapper>
