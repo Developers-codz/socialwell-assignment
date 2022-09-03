@@ -15,6 +15,7 @@ import Image from "next/image";
 import BlogImg from "../../assets/images/blogImg.png";
 import { PlayBtnIcon,CommentIcon,LikeIcon } from "../../assets";
 import { Aside } from "./Aside/Aside";
+import { CommentForm } from "./commentform/CommentForm";
 
 export const Main = () => {
   return (
@@ -98,6 +99,7 @@ export const Main = () => {
         </EndTextWrapper>
       </BlogWrapper>
       <Aside />
+      <CommentForm />
     </MainWrapper>
   );
 };

@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import { Navbar,Main } from '../components'
+import { Footer } from '../components/footer/Footer'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -7,6 +8,7 @@ const Home: NextPage = () => {
     <div className="container">
       <Navbar />
       <Main />
+      <Footer />
      
     </div>
   )
